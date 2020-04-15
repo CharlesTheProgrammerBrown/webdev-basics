@@ -72,7 +72,7 @@ float: left;
 #showcase p{
 font-family: Verdana;
 font-size: 30px;
-font-weight: 600;
+font-weight: 500;
 text-transform: capitalize;
 color: #000;
 line-height:1.6em;
@@ -129,3 +129,29 @@ padding:20px;
 text-align: center;
 
    }
+
+   @media(max-width:600px)
+{
+
+    #mainArea{
+        float:none;
+        width:100%;
+        text-align: center;
+    }
+
+    #sidebar{
+        float:none;
+        width:100%;
+    }
+
+    #showcase p{
+        font-family: Verdana;
+        font-size: 30px;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: #000;
+        line-height:1.4em;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        }
+}
